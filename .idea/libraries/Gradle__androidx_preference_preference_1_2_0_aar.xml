@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.preference:preference:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Android_Udacity_Course/SimplestTester/gradle/caches/transforms-3/3d5b63732c297c1e7459663ffc2d2b2b/transformed/preference-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Android_Udacity_Course/SimplestTester/gradle/caches/transforms-3/3d5b63732c297c1e7459663ffc2d2b2b/transformed/preference-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../../Android_Udacity_Course/SimplestTester/gradle/caches/transforms-3/3d5b63732c297c1e7459663ffc2d2b2b/transformed/preference-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Android_Udacity_Course/SimplestTester/gradle/caches/modules-2/files-2.1/androidx.preference/preference/1.2.0/ea34e83a4931eaa12ec078439d10c32e24b67478/preference-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

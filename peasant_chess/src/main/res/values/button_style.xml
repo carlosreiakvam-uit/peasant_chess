@@ -9,10 +9,4 @@
         <item name="android:layout_weight">1</item>
     </style>
 
-    <style name="button_margins" parent="Widget.AppCompat.Button">
-        <item name="android:layout_marginStart">10dp</item>
-
-
-    </style>
-
 </resources>

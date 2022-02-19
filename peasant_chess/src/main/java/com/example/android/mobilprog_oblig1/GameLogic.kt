@@ -75,11 +75,11 @@ class TicTacToeGame {
                 symbol
             )
 
-        when {
-            cond1 -> column = 1
-            cond2 -> column = 2
-            cond3 -> column = 3
-            else -> column = -1
+        column = when {
+            cond1 -> 1
+            cond2 -> 2
+            cond3 -> 3
+            else -> -1
         }
         return column
     }
@@ -94,10 +94,10 @@ class TicTacToeGame {
             board[2][0].contains(symbol) && board[1][1].contains(symbol) && board[0][2].contains(
                 symbol
             )
-        when {
-            cond1 -> diagonal = 1
-            cond2 -> diagonal = 2
-            else -> diagonal = -1
+        diagonal = when {
+            cond1 -> 1
+            cond2 -> 2
+            else -> -1
         }
         return diagonal
     }

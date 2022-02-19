@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="about_style">
-        <item name="android:textSize">25sp</item>
-    </style>
-
 </resources>

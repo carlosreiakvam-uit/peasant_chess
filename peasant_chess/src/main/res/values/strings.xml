@@ -1,22 +1,14 @@
 <resources>
     <string name="app_name">BONDESJAKK</string>
     <string name="playerOneSymbol" translatable="false">X</string>
-    <string name="playerTwoSymbol" translatable="false">O</string>
     <string name="about_app">Denne appen er laget av Hanstein Rommerud og Carlos Reiakvam</string>
     <string name="about">Om appen</string>
     <string name="quit">Avslutt</string>
     <string name="settings">Instillinger</string>
-    <string name="bondesjakk">BONDESJAKK</string>
     <string name="nytt_spill">Nytt Spill</string>
-    <string name="player_one">Spiller en: </string>
-    <string name="player_two">Spiller to: </string>
-    <string name="choose_symbol">Symbol</string>
     <string name="next_move">Neste trekk: </string>
     <string name="moves_player">"Trekk av spiller "</string>
-    <string name="winner_header">Vinner Header</string>
-    <string name="declare_winner">Deklarer Vinner</string>
     <string name="new_game_from_results">Nytt Spill</string>
-    <string name="done">UTFØR</string>
     <string name="description_symbol_player_one">Symbol spiller 1</string>
     <string name="description_symbol_player_two">Symbol spiller 2</string>
     <string name="we_have_a_winner">VI HAR EN VINNER!</string>

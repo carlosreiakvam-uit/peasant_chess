@@ -226,7 +226,7 @@ class GameFragment : Fragment() {
 
     private fun resetBoard(playerOneSymbol: String, playerTwoSymbol: String) {
         var buttonList: List<Button>
-        with(binding, {
+        with(binding) {
             buttonList = listOf(
                 button1, button2, button3, button4, button5, button6,
                 button7, button8, button9
@@ -250,7 +250,7 @@ class GameFragment : Fragment() {
                 }
                 item.text = text
             }
-        })
+        }
     }
 
     private fun changePlayer(initPlayerTurn: Int): Int {

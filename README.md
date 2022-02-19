@@ -1,2 +1,1 @@
-Dette er README.md
-Det står ikke noe nyttig her foreløpig...
+# PEASANT CHESS

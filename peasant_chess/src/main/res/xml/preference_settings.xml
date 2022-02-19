@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:maxLength="1"
+        app:key="symbol_player_one"
+        app:title="@string/description_symbol_player_one"
+        app:useSimpleSummaryProvider="true" />
+    <EditTextPreference
+        app:key="symbol_player_two"
+        app:title="@string/description_symbol_player_two"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>

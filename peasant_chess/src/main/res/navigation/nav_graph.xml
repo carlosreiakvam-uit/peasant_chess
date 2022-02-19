@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startupFragment">
+
+    <fragment
+        android:id="@+id/startupFragment"
+        android:name="com.example.android.mobilprog_oblig1.StartupFragment"
+        android:label="fragment_startup"
+        tools:layout="@layout/fragment_startup">
+        <action
+            android:id="@+id/action_startupFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_startupFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_startupFragment_to_preferenceFragment"
+            app:destination="@id/preferenceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.android.mobilprog_oblig1.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game">
+        <action
+            android:id="@+id/action_gameFragment_to_resultsFragment"
+            app:destination="@id/resultsFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gameFragment"
+            app:popUpToInclusive="true" />
+        <!--Legg merke til popUpTo: gjør slik at back button popper av gameFragment
+         og man sveiper dermed rett tilbake til startmenyen 🥰-->
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.android.mobilprog_oblig1.AboutFragment"
+        android:label="@string/about" />
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.android.mobilprog_oblig1.ResultsFragment"
+        android:label="fragment_results"
+        tools:layout="@layout/fragment_results">
+        <argument
+            android:name="results_header"
+            app:argType="string" />
+        <argument
+            android:name="winner_declaration"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_resultsFragment_to_startupFragment2"
+            app:destination="@id/startupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preferenceFragment"
+        android:name="com.example.android.mobilprog_oblig1.PreferenceFragment"
+        android:label="PreferenceFragment" />
+
+
+</navigation>
